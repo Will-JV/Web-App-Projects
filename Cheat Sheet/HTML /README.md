@@ -140,16 +140,64 @@ Contains a text that defines the title of an HTML document which is displayed in
 <table>
     <thead>
         <tr>
-            <th>heading_1</th>
+            <th rowspan='2'>heading_1</th>
             <th>heading_2</th>
         </tr>
     </thead>
 
     <tbody>
         <tr>
-            <td>col_1</td>
+            <td colspan='2'>col_1</td>
             <td>col_2</td>
         </tr>
     </tbody>
+
+    <tfoot>
+        <tr>
+            <td>summary of col_1</td>
+            <td>summary of col_2</td>
+        </tr>
+    </tfoot>
 </table>
 ```
+
+<ul>
+    <li>thead: Table header</li>
+    <li>tbody: Table content other than header and footer</li>
+    <li>th: Table heading</li>
+    <li>tr: Table row</li>
+    <li>td: Table data</li>
+    <li>rowspan/colspan: Sets the row/column span</li>
+</ul>
+
+Format for creating a table.
+
+## Audio
+```html
+<audio src=''> </audio>
+```
+Displays audio files.
+
+## Figure and Figcaption
+```html
+<figure>
+    <img>
+    <figcaption>Error Message</figcaption>
+</figure>
+```
+Used to encapsulate media such as an image, diagram, or code snippet. The \<figcaption> element is used to describe the media encapsulated within the figure element.
+
+## Section, Article, Aside
+```html
+<section>
+    <article>
+        <!-- Main Content -->
+    </article>
+
+    <aside>
+        <!--Additional information -->
+    </aside>
+</section>
+```
+Section defines elements in a document, such as chapters, headings and so on. Article holds content that makes sense on its own such as articles, blogs, and comments.
+
