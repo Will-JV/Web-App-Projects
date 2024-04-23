@@ -27,6 +27,7 @@ h1, h2 {
 font-family: /* Font type */;
 font-size: /* Size in pixels */
 font-weight: /* bold, bolder*/;
+text-decoration: underline;
 ```
 Changes to the font used.
 
