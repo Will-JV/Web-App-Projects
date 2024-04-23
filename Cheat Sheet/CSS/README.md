@@ -135,16 +135,28 @@ clear: /* left, right, both, none */;
 ```
 Specifies how an element should behave when it bumps into another element within the same containing element.
 
-## Hover and Cursor
+## Cursor
 ```css
 a {
-    color: black;
     cursor: pointer;
     /* Must be added to all elements instead of event*/
 }
 
+```
+Cursor is usually set to pointer when hovered above links.
+
+## Link, Visited, Hover, Active (Pseudo-class)
+```css
+a:link {
+}
+a:visited {
+    /* Changes when link is visited */
+}
 a:hover {
-    color: red;
+    /* Changes when pointer is hovered above link */
+}
+a:active {
+    /* Changes when link's site is active */
 }
 ```
-Hover pseudo-class allows links etc. to be stylized as needed when mouse is hovering above the element. Cursor is usually set to pointer when hovered above links.
+Pseudo-classes used to stylize anchor link behaviours.
