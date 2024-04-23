@@ -25,7 +25,7 @@ h1, h2 {
 ## Font
 ```CSS 
 font-family: /* Font type */;
-font-size: /* Size in pixels */
+font-size: /* Size in pixels */;
 font-weight: /* bold, bolder*/;
 text-decoration: underline;
 ```
