@@ -160,3 +160,9 @@ a:active {
 }
 ```
 Pseudo-classes used to stylize anchor link behaviours.
+
+## Box shadows
+```css
+box-shadow: 0px 0px/* offset-x  offset-y */;
+```
+Adds shadows to boxes.
