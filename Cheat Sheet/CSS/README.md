@@ -135,3 +135,16 @@ clear: /* left, right, both, none */;
 ```
 Specifies how an element should behave when it bumps into another element within the same containing element.
 
+## Hover and Cursor
+```css
+a {
+    color: black;
+    cursor: pointer;
+    /* Must be added to all elements instead of event*/
+}
+
+a:hover {
+    color: red;
+}
+```
+Hover pseudo-class allows links etc. to be stylized as needed when mouse is hovering above the element. Cursor is usually set to pointer when hovered above links.
