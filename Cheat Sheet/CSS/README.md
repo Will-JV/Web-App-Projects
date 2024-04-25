@@ -173,3 +173,9 @@ Adds shadows to boxes.
 color: var(--name-of-variable);
 ```
 Variables can be set using double dash (--) followed by the name of the variable. Called inline with the function var().
+
+## Transition
+```css
+transition: color .1s ease-in; /* name duration ease-in*/
+```
+Used to specify the effects on transition. Can be used multiple times with the aid of a comma in between.
