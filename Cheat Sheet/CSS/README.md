@@ -180,7 +180,7 @@ Variables can be set using double dash (--) followed by the name of the variable
     content: ">";
 }
 ```
-Adjacent sibling combinator "+" selects two elements when they are immediately next to each other <strong style='color: red;'>*The element that is selected is usually the latter of the pair</strong>. ::before creates a pseudo-element which is used with content, to display content before just before the selected element.
+Adjacent sibling combinator "+" selects two elements when they are immediately next to each other <strong style="color: red;">*The element that is selected is usually the latter of the pair</strong>. ::before creates a pseudo-element which is used with content, to display content before just before the selected element.
 
 ## Transition
 ```css
