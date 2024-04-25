@@ -166,3 +166,10 @@ Pseudo-classes used to stylize anchor link behaviours.
 box-shadow: 0px 0px/* offset-x  offset-y */;
 ```
 Adds shadows to boxes.
+
+## Variables
+```css
+--name-of-variable: value;
+color: var(--name-of-variable);
+```
+Variables can be set using double dash (--) followed by the name of the variable. Called inline with the function var().
