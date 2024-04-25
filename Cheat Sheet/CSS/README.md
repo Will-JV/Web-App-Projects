@@ -174,6 +174,14 @@ color: var(--name-of-variable);
 ```
 Variables can be set using double dash (--) followed by the name of the variable. Called inline with the function var().
 
+## Adjacent Sibling Combinator + Pseudo-element
+```css
+.class li+li::before {
+    content: ">";
+}
+```
+Adjacent sibling combinator "+" selects two elements when they are immediately next to each other. ::before creates a pseudo-element which is used with content, to display content before just before the selected element.
+
 ## Transition
 ```css
 transition: color .1s ease-in; /* name duration ease-in*/
